@@ -13,6 +13,15 @@
   border: 1px solid rgb(0, 123, 167);
 }
 
+/*#main {
+  margin-left: none;
+  margin-right: none;
+  margin: 0 auto;
+}*/
+
+.button {
+}
+
 h1 {
   text-align: center;
 }
