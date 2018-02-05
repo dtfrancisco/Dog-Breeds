@@ -25,6 +25,7 @@ function createCard(breed) {
 }
 
 function loadBreedNames(breed) {
+  console.log(breed);
   var breeds = [];
   var request = new XMLHttpRequest();
   if (breed.length == 0) {
@@ -90,6 +91,15 @@ function loadBreedImage(breed, subbreed) {
     }
   }
   request.send();
+}
+
+function descriptionChecker(string) {
+  if (string.includes("film")) {
+  }
+  else if (string.includes("dog") || string.includes("hound")) {
+    return true;
+  }
+  return false;
 }
 
 function capitalize(string) {
